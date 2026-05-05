@@ -19,7 +19,7 @@
     <header>
         <div class="header-inner">
             <div class="navigation">
-                <img src="img/logo.png" alt="LOGO">
+                <a href=""><img src="img/logo.png" alt="LOGO"></a>
                 <nav class="menu">
                     <a href="">Новости</a>
                     <a href="">О Контрольно-счетной палате</a>
@@ -29,41 +29,103 @@
                 </nav>
             </div>
             <div class="right-side-header">
-                <img src="" alt="Версия для слабовидящих">
+                <a href=""><img src="" alt="Версия для слабовидящих"></a>
                 <a href="">Войти</a>
             </div>
         </div>
-</header>
+    </header>
 
-<main class="wrapper">
-    <section class="under-header">
-        <article class="title-quote">
-            <div class="title">
-                <h1>Контрольно-счетная палата</h1>
-                <h2>Томской области</h2>
+    <main class="wrapper">
+        <section class="under-header">
+            <article class="title-quote">
+                <div class="title">
+                    <h1>Контрольно-счетная палата</h1>
+                    <h2>Томской области</h2>
+                </div>
+                <i>Magna et veritas, et praevalebit (лат.) – Нет ничего превыше истины, и она восторжествует</i>
+            </article>
+            <article class="search-line">
+
+                <div class="search-placeholder">
+                    <b>Искать: </b>
+                    <input type="text" placeholder="Поиск по сайту">
+                </div>
+                <button type="submit" class="search-icon">
+                    <img src="" alt="Найти">
+                </button>
+            </article>
+        </section>
+        <!--        <router-link to="/home">go home</router-link>-->
+        <section class="main-blocks">
+            <article class="main-block">
+                <h3>Новости</h3>
+                <p>rtwejjjjjjjjjjfgnnnnnnnnnwerhhhhhhhhhhhhhhhdfhb</p>
+            </article>
+            <article class="main-block">
+                <h3>Новости</h3>
+                <p>rtwejjjjjjjjjjfgnnnnnnnnnwerhhhhhhhhhhhhhhhdfhb</p>
+            </article>
+            <article class="main-block">
+                <h3>Новости</h3>
+                <p>rtwejjjjjjjjjjfgnnnnnnnnnwerhhhhhhhhhhhhhhhdfhb</p>
+            </article>
+            <article class="main-block">
+                <h3>Новости</h3>
+                <p>rtwejjjjjjjjjjfgnnnnnnnnnwerhhhhhhhhhhhhhhhdfhb</p>
+            </article>
+        </section>
+        <section class="media">
+            <article>
+                <video></video>
+            </article>
+        </section>
+
+        <section class="form">
+            <h3>Обращения граждан и организаций</h3>
+            <p>Обращения граждан и организаций
+                <br>Данная форма является официальным обращением в Контрольно-счетную палату Томской области и влечет
+                правовые последствия, которые предусмотрены положениями Федерального закона Российской Федерации от 2
+                мая 2006 г. N 59-ФЗ "О порядке рассмотрения обращений граждан Российской Федерации"
+                <br>Для отправки обращения необходимо корректно заполнить все поля, отмеченные *.</p>
+            <form action="" method="post">
+                <fieldset>
+                    <label for="full-name">ФИО (или наименование организации и т.д.) *</label>
+                    <input id="full-name" type="text" name="name" />
+
+                    <label for="email">Электронный адрес *</label>
+                    <input id="email" type="text" name="name" />
+
+                    <label for="phone"> Номер телефона </label>
+                    <input id="phone" type="text" name="name" />
+
+                    <label for="address"> Почтовый адрес </label>
+                    <input id="address" type="text" name="name" />
+
+                    <label for="message">Текст сообщения</label>
+                    <input id="message" type="text" name="name" />
+
+                    <input type="submit" value="Отправить"/>
+                </fieldset>
+            </form>
+        </section>
+
+    </main>
+    <footer>
+        <div class="footer-inner">
+            <h4>© 2026 «Контрольно-счетная палата Томской области»</h4>
+            <div class="info-list">
+                <p> Россия, г. Томск,</p>
+                <p> ул. Енисейская, 8</p>
+                <p> Тел.: +7 (382-2) 52-00-61</p>
+                <p> kpto@audit.tomsk.ru</p>
             </div>
-            <i>Magna et veritas, et praevalebit (лат.) – Нет ничего превыше истины, и она восторжествует</i>
-        </article>
-        <article class="search-line">
-
-            <div class="search-placeholder">
-                <b>Искать: </b>
-                <input type="text" placeholder="Поиск по сайту">
+            <div class="social-networks">
+                <a href="">Max</a>
+                <a href="">Вконтакте</a>
+                <a href="">Одноклассники</a>
             </div>
-            <button type="submit" class="search-icon">
-            <img src="" alt="Найти">
-        </button>
-        </article>
-    </section>
-
-    <section>
-        <router-link to="/home">go home</router-link>
-        <article>
-
-        </article>
-    </section>
-</main>
-
+        </div>
+    </footer>
 </div>
 
 </body>
